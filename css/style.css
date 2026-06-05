@@ -1331,8 +1331,8 @@ section {
   background: #25d366;
   color: white;
   padding: 0.875rem 1.25rem;
-  border: 2px solid var(--dark);
-  border-radius: 0;
+  border: none;
+  border-radius: 50px;
   text-decoration: none;
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 700;
@@ -1341,13 +1341,14 @@ section {
   letter-spacing: 0.05em;
   cursor: pointer;
   transition: all var(--transition);
-  box-shadow: 4px 4px 0px 0px var(--dark);
+  box-shadow: 0 8px 25px rgba(0,0,0,.25);
   animation: pulse-whatsapp 2s infinite;
 }
 
 .floating-whatsapp:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0px 0px var(--dark);
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+
 }
 
 .floating-whatsapp:active {
