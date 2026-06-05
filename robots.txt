@@ -1,0 +1,19 @@
+# HB Locações - robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.xml$
+
+# Permitir acesso a assets
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://hb-locacoes.com.br/sitemap.xml
