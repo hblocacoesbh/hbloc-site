@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>HB Locações – Solidez e Soluções Completas Em Locação De Equipamentos</title>
+    <meta name="description" content="Locação especializada de máquinas modernas e implementos para obras residenciais, construtoras, mineração e infraestrutura pesada. Há 30 anos oferecendo o melhor suporte do mercado.">
+    <meta name="keywords" content="locação de máquinas, equipamentos de construção, escavadeira, carregadeira, mineração, infraestrutura, HB Locações">
+    <meta name="author" content="HB Locações">
+    <meta name="theme-color" content="#18181b">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="HB Locações – Solidez e Soluções Completas Em Locação De Equipamentos">
+    <meta property="og:description" content="Locação especializada de máquinas modernas e implementos para obras residenciais, construtoras, mineração e infraestrutura pesada.">
+    <meta property="og:image" content="./assets/images/hero_machinery.jpg">
+    <meta property="og:url" content="https://hb-locacoes.com.br">
+    <meta property="og:site_name" content="HB Locações">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HB Locações – Solidez e Soluções Completas">
+    <meta name="twitter:description" content="Locação especializada de máquinas modernas para construção civil, mineração e infraestrutura pesada.">
+    <meta name="twitter:image" content="./assets/images/hero_machinery.jpg">
+    
+    <!-- WhatsApp -->
+    <meta property="og:phone_number" content="+55 31 98284-4756">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16.png">
+    <link rel="apple-touch-icon" href="./assets/icons/favicon-128.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- GRID LINES TÉCNICAS -->
+    <div class="grid-lines"></div>
+
+    <!-- HEADER -->
+    <header class="header sticky-header">
+        <div class="header-container">
+            <!-- LOGO -->
+            <a href="#" class="logo-link">
+                <img src="./assets/images/hb_logo_optimized.png" alt="HB Locações Logo" class="logo">
+            </a>
+
+            <!-- DESKTOP NAV -->
+            <nav class="desktop-nav">
+                <a href="#equipamentos" class="nav-link">Equipamentos</a>
+                <a href="#solucoes" class="nav-link">Soluções</a>
+                <a href="#sobre" class="nav-link">Diferenciais</a>
+                <a href="#como-funciona" class="nav-link">Como Funciona</a>
+            </nav>
+
+            <!-- HEADER CTA -->
+            <button class="btn-header" onclick="window.openWhatsApp()">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M3 21l1.65-4.95h-1.65v-2h2.75l1.59-4.8h-4.34v-2h5.94l1.65-5h2.82l-1.65 5h4.34l1.65-5h2.82l-1.65 5h1.65v2h-2.75l-1.59 4.8h4.34v2h-5.94l-1.65 5h-2.82z"/></svg>
+                <span>Orçamento no WhatsApp</span>
+            </button>
+
+            <!-- MOBILE MENU TRIGGER -->
+            <button class="mobile-menu-btn" onclick="window.toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <!-- MOBILE NAV -->
+        <nav class="mobile-nav" id="mobileMenu">
+            <a href="#equipamentos" class="mobile-nav-link">Equipamentos</a>
+            <a href="#solucoes" class="mobile-nav-link">Soluções</a>
+            <a href="#sobre" class="mobile-nav-link">Diferenciais</a>
+            <a href="#como-funciona" class="mobile-nav-link">Como Funciona</a>
+            <button class="btn-brutalist w-full" onclick="window.openWhatsApp()">
+                <span>Orçamento no WhatsApp</span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- BANNER PROMOCIONAL -->
+    <section class="banner-promo">
+        <div class="banner-container">
+            <div class="banner-text">
+                <span class="badge-destaque">Destaque</span>
+                <p>🎯 Desconto especial para sua locação: use o código <strong>HBLOC-205</strong> e garanta benefício exclusivo.</p>
+            </div>
+            <button class="btn-copy" onclick="window.copyCoupon()">
+                <span id="copyText">Copiar Cupom</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-background" style="background-image: url('./assets/images/hero_machinery.jpg');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+            <!-- TEXT CONTENT -->
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span>
+                    <span>Solidez e Soluções Completas</span>
+                </div>
+
+                <h1 class="hero-title">
+                    Equipamentos certos para sua obra com <span class="highlight-yellow">agilidade</span>, segurança e alto desempenho
+                </h1>
+
+                <p class="hero-subtitle">
+                    Locação especializada de máquinas modernas e implementos para obras residenciais, construtoras, mineração e infraestrutura pesada. Há 30 anos oferecendo o melhor suporte do mercado.
+                </p>
+
+                <!-- CTAs & CUPOM -->
+                <div class="hero-ctas">
+                    <button class="btn-brutalist btn-large" onclick="window.openWhatsApp()">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3 21l1.65-4.95h-1.65v-2h2.75l1.59-4.8h-4.34v-2h5.94l1.65-5h2.82l-1.65 5h4.34l1.65-5h2.82l-1.65 5h1.65v2h-2.75l-1.59 4.8h4.34v2h-5.94l-1.65 5h-2.82z"/></svg>
+                        <span>Solicitar orçamento no WhatsApp</span>
+                    </button>
+                    
+                    <div class="cupom-box" onclick="window.copyCoupon()">
+                        <div>
+                            <span class="cupom-label">Código Promocional</span>
+                            <span class="cupom-code">HBLOC-205</span>
+                        </div>
+                        <div class="cupom-icon">📋</div>
+                    </div>
+                </div>
+
+                <!-- TRUST BADGES -->
+                <div class="trust-badges">
+                    <div class="badge-item">
+                        <span class="badge-icon">✓</span>
+                        <span>Frota 100% Revisada</span>
+                    </div>
+                    <div class="badge-item">
+                        <span class="badge-icon">⚡</span>
+                        <span>Entrega Rápida</span>
+                    </div>
+                    <div class="badge-item">
+                        <span class="badge-icon">🔧</span>
+                        <span>Suporte 24/7</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HERO IMAGE -->
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="./assets/images/hero_machinery.jpg" alt="HB Locações - Escavadeiras e Máquinas Pesadas">
+                    <div class="image-label">Imagem ilustrativa</div>
+                </div>
+                <div class="hero-badge-float">
+                    <span class="badge-years">30 ANOS</span>
+                    <span class="badge-years-text">de experiência comprovada no Brasil</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EQUIPAMENTOS SECTION -->
+    <section id="equipamentos" class="equipamentos">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-badge">Equipamentos de Alto Padrão</div>
+                <h2>Nossa Frota para Locação</h2>
+                <p>Dispomos de equipamentos modernos, revisados e prontos para operar em obras de qualquer porte. Todos os nossos maquinários contam com a opção de implementos específicos para maximizar sua produtividade.</p>
+            </div>
+
+            <div class="equipment-grid">
+                <!-- MINI ESCAVADEIRAS -->
+                <div class="card-brutalist">
+                    <div class="card-image">
+                        <img src="./assets/images/mini_escavadeira.jpg" alt="Mini Escavadeira">
+                        <div class="image-label">Imagem ilustrativa</div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>Mini Escavadeiras</h3>
+                            <span class="card-badge">Versáteis</span>
+                        </div>
+                        
+                        <p class="card-desc">Versáteis e precisas para escavar, demolir e perfurar com os implementos certos para o seu projeto:</p>
+
+                        <ul class="card-list">
+                            <li><strong>Concha:</strong> escavação e movimentação de terra ágil.</li>
+                            <li><strong>Rompedor:</strong> quebra de concreto e asfalto com potência.</li>
+                            <li><strong>Perfuratriz:</strong> fundações limpas e paisagismo rápido.</li>
+                        </ul>
+                    </div>
+
+                    <div class="card-footer">
+                        <button class="btn-secondary" onclick="window.openWhatsApp()">
+                            <span>Alugar Mini Escavadeira</span>
+                            <span>→</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- MINI CARREGADEIRAS -->
+                <div class="card-brutalist">
+                    <div class="card-image">
+                        <img src="./assets/images/mini_carregadeira.jpg" alt="Mini Carregadeira">
+                        <div class="image-label">Imagem ilustrativa</div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>Mini Carregadeiras</h3>
+                            <span class="card-badge">Multiuso</span>
+                        </div>
+                        
+                        <p class="card-desc">Compactas e multifuncionais para acelerar sua obra em ambientes de espaço reduzido:</p>
+
+                        <ul class="card-list">
+                            <li><strong>Caçamba:</strong> movimentação de materiais e terraplenagem.</li>
+                            <li><strong>Garfo Pallet:</strong> transporte de cargas paletizadas na obra.</li>
+                            <li><strong>Vassoura:</strong> limpeza rápida de canteiros.</li>
+                            <li><strong>Fresadora:</strong> retirada precisa de pavimentos.</li>
+                            <li><strong>Roçadeira:</strong> limpeza de terrenos e áreas verdes.</li>
+                        </ul>
+                    </div>
+
+                    <div class="card-footer">
+                        <button class="btn-secondary" onclick="window.openWhatsApp()">
+                            <span>Alugar Mini Carregadeira</span>
+                            <span>→</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ESCAVADEIRA GRANDE -->
+                <div class="card-brutalist">
+                    <div class="card-image">
+                        <img src="./assets/images/escavadeira_grande.jpg" alt="Escavadeira Grande">
+                        <div class="image-label">Imagem ilustrativa</div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>Escavadeiras Grandes</h3>
+                            <span class="card-badge">Pesada</span>
+                        </div>
+                        
+                        <p class="card-desc">Potência máxima e versatilidade implacável para grandes movimentações de terra:</p>
+
+                        <ul class="card-list">
+                            <li><strong>Concha:</strong> escavação de grandes volumes com rapidez.</li>
+                            <li><strong>Rompedor Hidráulico:</strong> demolição de rochas e concreto.</li>
+                            <li><strong>Pulverizador:</strong> esmagamento de concreto para reciclagem.</li>
+                            <li><strong>Tesoura Hidráulica:</strong> corte de chapas e ferros estruturais.</li>
+                        </ul>
+                    </div>
+
+                    <div class="card-footer">
+                        <button class="btn-brutalist" onclick="window.openWhatsApp()">
+                            <span>Alugar Escavadeira Grande</span>
+                            <span>→</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA APÓS EQUIPAMENTOS -->
+            <div class="section-cta">
+                <button class="btn-brutalist btn-large" onclick="window.openWhatsApp()">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3 21l1.65-4.95h-1.65v-2h2.75l1.59-4.8h-4.34v-2h5.94l1.65-5h2.82l-1.65 5h4.34l1.65-5h2.82l-1.65 5h1.65v2h-2.75l-1.59 4.8h4.34v2h-5.94l-1.65 5h-2.82z"/></svg>
+                    <span>Solicitar orçamento no WhatsApp</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUÇÕES SECTION -->
+    <section id="solucoes" class="solucoes">
+        <div class="section-container">
+            <div class="section-header center">
+                <div class="section-badge">Soluções Sob Medida</div>
+                <h2>Atendimento Especializado por Segmento</h2>
+                <p>Entendemos as particularidades e demandas de cada tipo de projeto. Nossas soluções garantem o maquinário ideal para cada necessidade.</p>
+            </div>
+
+            <div class="solucoes-grid">
+                <!-- PARA CONSTRUTORES -->
+                <div class="solucao-card">
+                    <div class="card-number">01</div>
+                    <div class="solucao-icon">🔨</div>
+                    <h3>Para Construtores</h3>
+                    <p>Suporte completo para obras residenciais, reformas de pequeno e médio porte, paisagismo profissional e pequenas construções urbanas. Agilidade no fornecimento para manter seu cronograma em dia.</p>
+                    <button class="btn-link" onclick="window.openWhatsApp()">Falar com especialista →</button>
+                </div>
+
+                <!-- PARA CONSTRUTORAS -->
+                <div class="solucao-card">
+                    <div class="card-number">02</div>
+                    <div class="solucao-icon">🏢</div>
+                    <h3>Para Construtoras</h3>
+                    <p>Locações estratégicas para obras comerciais de grande porte, implantação de condomínios fechados, ampliações industriais e loteamentos. Equipamentos modernos com alta disponibilidade operacional.</p>
+                    <button class="btn-link" onclick="window.openWhatsApp()">Falar com especialista →</button>
+                </div>
+
+                <!-- PARA MINERADORAS -->
+                <div class="solucao-card">
+                    <div class="card-number">03</div>
+                    <div class="solucao-icon">⛏️</div>
+                    <h3>Para Mineradoras</h3>
+                    <p>Soluções robustas, equipamentos pesados e implementos especiais de alta resistência para operações em mineração, pedreiras e obras de infraestrutura pesada. Segurança e robustez comprovadas.</p>
+                    <button class="btn-link" onclick="window.openWhatsApp()">Falar com especialista →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIFERENCIAIS SECTION -->
+    <section id="sobre" class="diferenciais">
+        <div class="diferenciais-grid">
+            <!-- TEXT SIDE -->
+            <div class="diferenciais-text">
+                <div class="section-badge">Nossa Trajetória</div>
+                <h2>Solidez, Experiência e Soluções Completas</h2>
+                <p>Com uma história consolidada de 30 anos no mercado brasileiro, a HB Locações é sinônimo de excelência técnica e parceria estratégica em locação de equipamentos pesados.</p>
+
+                <!-- DIFERENCIAIS ITEMS -->
+                <div class="diferenciais-items">
+                    <div class="diferencial-item">
+                        <div class="diferencial-icon">🔨</div>
+                        <div>
+                            <h4>Demolição</h4>
+                            <p>Demolição de rocha e concreto com equipamentos de altíssima performance operacional.</p>
+                        </div>
+                    </div>
+
+                    <div class="diferencial-item">
+                        <div class="diferencial-icon">⛏️</div>
+                        <div>
+                            <h4>Mineração</h4>
+                            <p>Desmontes de rocha a fogo supercontrolado, a frio e métodos variados de alta tecnologia.</p>
+                        </div>
+                    </div>
+
+                    <div class="diferencial-item">
+                        <div class="diferencial-icon">🏗️</div>
+                        <div>
+                            <h4>Infraestrutura</h4>
+                            <p>Domínio consolidado em grandes obras do país, como estádios, metrôs e condomínios.</p>
+                        </div>
+                    </div>
+
+                    <div class="diferencial-item">
+                        <div class="diferencial-icon">📊</div>
+                        <div>
+                            <h4>Experiência</h4>
+                            <p>Há 30 anos atuando em projetos de grandes players do mercado e locações pontuais.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="diferencial-cta">
+                    <button class="btn-brutalist btn-large" onclick="window.openWhatsApp()">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3 21l1.65-4.95h-1.65v-2h2.75l1.59-4.8h-4.34v-2h5.94l1.65-5h2.82l-1.65 5h4.34l1.65-5h2.82l-1.65 5h1.65v2h-2.75l-1.59 4.8h4.34v2h-5.94l-1.65 5h-2.82z"/></svg>
+                        <span>Solicitar orçamento no WhatsApp</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- IMAGE SIDE -->
+            <div class="diferenciais-image">
+                <div class="image-frame">
+                    <img src="./assets/images/demolicao_mineracao.jpg" alt="HB Locações - Operações Pesadas">
+                    <div class="image-label">Imagem ilustrativa</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMO FUNCIONA - TIMELINE -->
+    <section id="como-funciona" class="como-funciona">
+        <div class="section-container">
+            <div class="section-header center">
+                <div class="section-badge">Sem Burocracia</div>
+                <h2>Como Funciona a Locação</h2>
+                <p>Processo ágil, simplificado e transparente para garantir que sua obra não pare por falta de equipamento.</p>
+            </div>
+
+            <!-- TIMELINE VISUAL -->
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-number">01</span>
+                    <h4>Contato Rápido</h4>
+                    <p>Entre em contato via WhatsApp e conte detalhadamente o que você precisa para sua obra.</p>
+                    <span class="timeline-label">Passo Inicial</span>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-number">02</span>
+                    <h4>Indicação Técnica</h4>
+                    <p>Nossa equipe especializada indica o melhor equipamento e implemento para maximizar sua produtividade.</p>
+                    <span class="timeline-label">Análise de Engenharia</span>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-number">03</span>
+                    <h4>Entrega na Obra</h4>
+                    <p>Entregamos rapidamente o maquinário contratado diretamente no local indicado da sua obra.</p>
+                    <span class="timeline-label">Logística Própria</span>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-number">04</span>
+                    <h4>Suporte Constante</h4>
+                    <p>Oferecemos suporte técnico completo e manutenção preventiva/corretiva constante durante todo o contrato.</p>
+                    <span class="timeline-label">Garantia de Operação</span>
+                </div>
+            </div>
+
+            <!-- CTA APÓS TIMELINE -->
+            <div class="section-cta">
+                <button class="btn-brutalist btn-large" onclick="window.openWhatsApp()">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3 21l1.65-4.95h-1.65v-2h2.75l1.59-4.8h-4.34v-2h5.94l1.65-5h2.82l-1.65 5h4.34l1.65-5h2.82l-1.65 5h1.65v2h-2.75l-1.59 4.8h4.34v2h-5.94l-1.65 5h-2.82z"/></svg>
+                    <span>Solicitar orçamento no WhatsApp</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCO FINAL DE CONVERSÃO -->
+    <section class="cta-final">
+        <div class="cta-final-container">
+            <div class="cta-badge">Garanta seu Desconto</div>
+            <h2>Entre em contato <span class="highlight">agora mesmo</span></h2>
+            <p>Solicite seu orçamento sem compromisso pelo WhatsApp informando o código promocional exclusivo para receber condições especiais em sua locação.</p>
+
+            <!-- CUPOM DESTAQUE -->
+            <div class="cupom-final">
+                <div>
+                    <span class="cupom-label-final">Cupom Exclusivo</span>
+                    <span class="cupom-code-final">HBLOC-205</span>
+                </div>
+                <button class="btn-copy-final" onclick="window.copyCoupon()">
+                    <span id="copyTextFinal">Copiar Código</span>
+                </button>
+            </div>
+
+            <button class="btn-brutalist-dark btn-large" onclick="window.openWhatsApp()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3 21l1.65-4.95h-1.65v-2h2.75l1.59-4.8h-4.34v-2h5.94l1.65-5h2.82l-1.65 5h4.34l1.65-5h2.82l-1.65 5h1.65v2h-2.75l-1.59 4.8h4.34v2h-5.94l-1.65 5h-2.82z"/></svg>
+                <span>Solicitar orçamento agora</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <!-- COL 1 - INSTITUCIONAL -->
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <img src="./assets/images/hb_logo_optimized.png" alt="HB Locações Logo">
+                </div>
+                <p class="footer-desc">
+                    Solidez, experiência e soluções completas em locação de equipamentos para construção civil, mineração e infraestrutura pesada. Há 30 anos garantindo o sucesso de sua obra.
+                </p>
+                <p class="footer-copyright">
+                    © 2026 HB Locações. Todos os direitos reservados.
+                </p>
+            </div>
+
+            <!-- COL 2 - LINKS RÁPIDOS -->
+            <div class="footer-col">
+                <h5>Navegação</h5>
+                <ul class="footer-links">
+                    <li><a href="#equipamentos">Nossa Frota</a></li>
+                    <li><a href="#solucoes">Segmentos de Atuação</a></li>
+                    <li><a href="#sobre">Diferenciais Técnicos</a></li>
+                    <li><a href="#como-funciona">Processo de Locação</a></li>
+                </ul>
+            </div>
+
+            <!-- COL 3 - CONTATO (APENAS WHATSAPP) -->
+            <div class="footer-col">
+                <h5>Fale Conosco</h5>
+                <p class="footer-contact-desc">
+                    Precisa de ajuda para escolher o melhor maquinário? Nosso atendimento especializado está pronto para auxiliar.
+                </p>
+                <button class="btn-brutalist w-full" onclick="window.openWhatsApp()">
+                    <span>Solicitar orçamento no WhatsApp</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- NOTA DE IMAGEM ILUSTRATIVA -->
+        <div class="footer-bottom">
+            <p>⚠️ Todas as imagens exibidas nesta página são ilustrativas.</p>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/5531982844756?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento.%20Possuo%20o%20cupom%20HBLOC-205" 
+       class="floating-whatsapp" 
+       data-tooltip="Fale conosco pelo WhatsApp"
+       target="_blank" 
+       rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+</svg>
+        <span class="floating-whatsapp-text">Solicite um Orçamento</span>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
